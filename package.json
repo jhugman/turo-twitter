@@ -1,0 +1,31 @@
+{
+  "name": "turo-twitter",
+  "version": "0.0.1",
+  "description": "A Twitter calculator bot, using turo to parse and calculate tweets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jhugman/turo-twitter.git"
+  },
+  "keywords": [
+    "turo",
+    "calculator",
+    "twitter",
+    "bot",
+    "twitterbot"
+  ],
+  "author": "@jhugman",
+  "license": "Apache-v2",
+  "bugs": {
+    "url": "https://github.com/jhugman/turo-twitter/issues"
+  },
+  "homepage": "https://github.com/jhugman/turo-twitter",
+  "dependencies": {
+    "turo": "git+ssh://git@github.com:jhugman/turo",
+    "underscore": "~1.8.2",
+    "twit": "~1.1.20"
+  }
+}
